@@ -1,6 +1,6 @@
 import random
 print("Welcome to python rock paper sissors game!!!!!")
-tools = 'rock', 'paper', 'scissor'
+tools = 'rock', 'paper', 'scissors'
 players_tool = input("What do you choose [rock] [paper] [sissors]: ")
 print("You chose",players_tool)
 computer = random.choice(tools)
